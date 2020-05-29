@@ -1,27 +1,25 @@
-Multi_Threaded_Web_Server_Client
+# Multi_Threaded_Web_Server_Client
 
-Developed by : Ishita Kapur
-UTA ID : 1001753123
-CSE 5344, Fall 2019
+### Author : Ishita Kapur, 1001753123
 
------------
+## Description
 An application in Java to build a Simple Web Client and a Multithreaded Web Server.
 
-Tools used for Development:    
-1. Programming Language: Java (jdk 1.13)
-2. Text Editors: Notepad++, Visual Studio Code
-3. Web Server Environment: Apache Tomcat 
-4. External Packages: No dependencies
-5. Command Line Interface: Windows command prompt(to execute the program)
+Tools used for Development:
+1.	Programming Language: Java (jdk 1.13)
+2.	Text Editors: Notepad++, Visual Studio Code
+3.	Web Server Environment: Apache Tomcat
+4.	External Packages: No dependencies
+5.	Command Line Interface: Windows command prompt(to execute the program)
 
 Project Structure:
 Multi_Threaded_Web_Server_Client	
-	Source files for the application.	
-    - `InitializeServer.java`: Code to initialize the WebServer at a user provided port or a default port(8080).
-    - `WebServer.java`: Code to implement a multhreaded server to listen to multiple client requests. Once a client is connected, the processing is handed over to a separate RequestHandler thread.
-    - `HttpRequestHandler.java`: Code to processes client's HTTP request in separate threads.
-    - `WebClient.java`: Code for a web client which communicates with the server on a specific ip:port address and requests a file on the server.
-	- `index.html`: Default html file sent to the client for a GET request containing "/" filepath.
+	Source files for the application:
+	*	`InitializeServer.java`: Code to initialize the WebServer at a user provided port or a default port(8080).
+	*	`WebServer.java`: Code to implement a multhreaded server to listen to multiple client requests. Once a client is 			connected, the processing is handed over to a separate RequestHandler thread.
+	*	`HttpRequestHandler.java`: Code to processes client's HTTP request in separate threads.
+	*	`WebClient.java`: Code for a web client which communicates with the server on a specific ip:port address and requests a 		file on the server.
+	*	`index.html`: Default html file sent to the client for a GET request containing "/" filepath.
 
 Project Execution:
 Perform the following steps inside the `Multi_Threaded_Web_Server_Client` folder sequentially on Command Prompt:
